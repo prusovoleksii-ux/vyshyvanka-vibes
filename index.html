@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyshyvanka Vibes</title>
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <a class="logo" href="./index.html">
+                        <svg width="44" height="39">
+                            <use href="./images/icons.svg#icon-vyshyvanka"></use>
+                        </svg>
+                    </a>
+                    <ul class="page-cards">
+                        <li><a class="page-link" href="#about-us">about us</a></li>
+                        <li><a class="page-link" href="#our-collection">our collection</a></li>
+                        <li><a class="page-link" href="">customer order</a></li>
+                        <li><a class="page-link" href="">testimonials</a></li>
+                    </ul>
+                </nav>
+                <address class="address">
+                    <a class="tel-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                    <ul class="header-socials">
+                        <li>
+                            <a  class="header-social-link"
+                                href="facebook.com"
+                                target="_blank">
+                                <svg class="social-link-icon" width="28" height="28">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a  class="header-social-link"
+                                href="instagram.com"
+                                target="_blank">
+                                <svg class="social-link-icon" width="28" height="28">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a  class="header-social-link"
+                                href="youtube.com"
+                                target="_blank">
+                                <svg class="social-link-icon" width="28" height="28">
+                                    <use href="./images/icons.svg#icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="hamburger-nav" type="button">
+                        <svg>
+                            <use href="./images/icons.svg#icon-hamburger"></use>
+                        </svg>
+                    </button>
+                </address>
+            </div>
+        </header>
+        <main>
+            <!-- #region hero -->
+            <section class="hero">
+                <div class="container">
+                    <picture>
+                        <source media="(min-width: 1240px)" srcset="./images/hero/hero-d.jpg 1x, ./images/hero/hero-d@2x.jpg 2x">
+                        <source media="(min-width: 704px)" srcset="./images/hero/hero-t.jpg 1x, ./images/hero/hero-t@2x.jpg 2x">
+                        <source media="(max-width: 703px)" srcset="./images/hero/hero-m.jpg 1x, ./images/hero/hero-m@2x.jpg 2x">
+                        <img class="hero-img" src="./images/hero/hero-d" alt="girl wears vyshyvanka">
+                    </picture>
+                    <div class="hero-left-container">
+                        <div class="hero-text-container">
+                            <h1 class="hero-title">Reviving the traditional <span class="accent">Ukrainian</span> artistry in every stitch.</h1>
+                            <a class="order-anchor" href="#">
+                                order
+                                <svg width="24" height="16">
+                                    <use href="./images/icons.svg#icon-arrow"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="hero-info-container">
+                            <svg width="52" height="51">
+                                <use href="./images/icons.svg#icon-star"></use>
+                            </svg>
+                            <p class="small-text">all embroidery is made by hand</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- #endregion hero -->
 
+            <!-- #region about us -->
+            <section id="about-us" class="about-us">
+                <div class="container">
+                    <div class="about-us-text-container">
+                        <h2 class="subheading">About Us</h2>
+                        <p class="small-text">
+                            The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style.
+                            Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional
+                            needlework and modern design.
+                        </p>
+                        <p class="small-text">
+                            In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest
+                            fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey
+                            the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of
+                            national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from
+                            "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.
+                        </p>
+                    </div>
+                    <svg class="about-us-svg">
+                        <use href="./images/icons.svg#icon-vyshyvanka"></use>
+                    </svg>
+                    <picture>
+                        <source media="(min-width: 1240px)" 
+                                srcset="./images/about-us/about-us-d.jpg"
+                                height="545">
+                        <source media="(min-width: 704px)" 
+                                srcset="./images/about-us/about-us-t.jpg"
+                                height="545">
+                        <source media="(max-width: 703px)" 
+                                srcset="./images/about-us/about-us-m.jpg"
+                                height="499">
+                        <img class="about-us-img" src="./images/about-us/about-us-d" alt="vyshyvanka">
+                    </picture>
+                </div>
+            </section>
+            <!-- #endregion about us -->
+
+            <!-- #region our collection -->
+            <section id="our-collection" class="our-collection">
+                <div class="container">
+                    <h2 class="subheading">Our collection</h2>
+                    <ul class="collection">
+                        <li class="product-card">
+                            <img class="product-img" src="./images/our-collection/product-1.jpg" alt="AUGUST Poltava women's blousering">
+                            <div class="product-info">
+                                <h3 class="product-name">AUGUST Poltava women's blousering</h3>
+                                <p class="price-text">3300 UAH</p>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <img class="product-img" src="./images/our-collection/product-2.jpg" alt="Women's blouse Gorgany">
+                            <div class="product-info">
+                                <h3 class="product-name">Women's blouse Gorgany</h3>
+                                <p class="price-text">3350 UAH</p>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <img class="product-img" src="./images/our-collection/product-3.jpg" alt="Women's blouse Crimea">
+                            <div class="product-info">
+                                <h3 class="product-name">Women's blouse Crimea</h3>
+                                <p class="price-text">4000 UAH</p>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <img class="product-img" src="./images/our-collection/product-4.jpg" alt="Men's shirt Verkhovina">
+                            <div class="product-info">
+                                <h3 class="product-name">Men's shirt Verkhovina</h3>
+                                <p class="price-text">3100 UAH</p>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <img class="product-img" src="./images/our-collection/product-5.jpg" alt="Mountain men's shirt">
+                            <div class="product-info">
+                                <h3 class="product-name">Mountain men's shirt</h3>
+                                <p class="price-text">3300 UAH</p>
+                            </div>
+                        </li>
+                        <li class="product-card">
+                            <img class="product-img" src="./images/our-collection/product-6.jpg" alt="Men's shirt Yasen">
+                            <div class="product-info">
+                                <h3 class="product-name">Men's shirt Yasen</h3>
+                                <p class="price-text">1700 UAH</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <svg class="collection-svg" width="338" height="300">
+                        <use href="./images/icons.svg#icon-vyshyvanka"></use>
+                    </svg>
+                </div>
+            </section>
+            <!-- #endregion our collection -->
+        </main>
+        <footer>
+            <div class="container">
+                <nav class="nav">
+                    <ul class="page-cards">
+                        <li><a class="page-link" href="#about-us">about us</a></li>
+                        <li><a class="page-link" href="#our-collection">our collection</a></li>
+                        <li><a class="page-link" href="">customer order</a></li>
+                        <li><a class="page-link" href="">testimonials</a></li>
+                    </ul>
+                </nav>
+                <p class="footer-text">A touch of <span class="accent">Ukrainian</span> culture in every embroidery</p>
+                <svg class="footer-svg" width="595" height="528">
+                    <use href="./images/icons.svg#icon-vyshyvanka"></use>
+                </svg>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
